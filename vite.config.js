@@ -2,6 +2,7 @@ import { defineConfig } from 'vite';
 import { resolve } from 'path';
 
 export default defineConfig({
+  base: '/febe-last-project-web-intermedient-geolocation/',
   server: {
     port: 5173,
     strictPort: true,
