@@ -2,20 +2,45 @@
     "name": "Blue GeoLocation",
     "short_name": "Blue",
     "description": "Share your stories with the world and discover amazing places!",
-    "start_url": "/",
+    "start_url": "/febe-last-project-web-intermedient-geolocation/",
     "display": "standalone",
     "background_color": "#1a73e8",
     "theme_color": "#1a73e8",
     "icons": [
         {
-            "src": "/images/icon-192.png",
+            "src": "/febe-last-project-web-intermedient-geolocation/images/icon-192.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "/images/icon-512.png",
+            "src": "/febe-last-project-web-intermedient-geolocation/images/icon-512.png",
             "sizes": "512x512",
             "type": "image/png"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Add New Location",
+            "short_name": "Add Location",
+            "description": "Add a new location to the map",
+            "url": "/febe-last-project-web-intermedient-geolocation/add",
+            "icons": [{ "src": "/febe-last-project-web-intermedient-geolocation/images/add-192.png", "sizes": "192x192" }]
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "/febe-last-project-web-intermedient-geolocation/images/screenshot-desktop.png",
+            "sizes": "1280x720",
+            "type": "image/png",
+            "platform": "wide",
+            "label": "Blue GeoLocation Desktop View"
+        },
+        {
+            "src": "/febe-last-project-web-intermedient-geolocation/images/screenshot-mobile.png",
+            "sizes": "750x1334",
+            "type": "image/png",
+            "platform": "narrow",
+            "label": "Blue GeoLocation Mobile View"
         }
     ]
 } 
