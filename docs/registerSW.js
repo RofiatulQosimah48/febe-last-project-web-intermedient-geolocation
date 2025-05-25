@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/febe-last-project-web-intermedient-geolocation/sw.js', { scope: '/febe-last-project-web-intermedient-geolocation/' })})}
